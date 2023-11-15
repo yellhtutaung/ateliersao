@@ -1,33 +1,33 @@
-<style>
-    .sub-menu
-    {
-        margin: 445px 0 0 7.5%;
-        width: 13%;
-        height: auto;
-        position: absolute;
-        z-index: 5;
-    }
-    .list-group-item a
-    {
-        font-weight: lighter !important;
-        color: white;
-    }
-    .list-group-item
-    {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin: 0.5px 0;
-        height: 58px;
-    }
-    .list-group-item:hover
-    {
-        background: #D7C487;
-    }
-    .list-group{
-        border-radius: 0px !important;
-    }
-</style>
+<!--<style>-->
+<!--    .sub-menu-->
+<!--    {-->
+<!--        margin: 445px 0 0 7.5%;-->
+<!--        width: 13%;-->
+<!--        height: auto;-->
+<!--        position: absolute;-->
+<!--        z-index: 5;-->
+<!--    }-->
+<!--    .list-group-item a-->
+<!--    {-->
+<!--        font-weight: lighter !important;-->
+<!--        color: white;-->
+<!--    }-->
+<!--    .list-group-item-->
+<!--    {-->
+<!--        display: flex;-->
+<!--        justify-content: start;-->
+<!--        align-items: center;-->
+<!--        margin: 0.5px 0;-->
+<!--        height: 58px;-->
+<!--    }-->
+<!--    .list-group-item:hover-->
+<!--    {-->
+<!--        background: #D7C487;-->
+<!--    }-->
+<!--    .list-group{-->
+<!--        border-radius: 0px !important;-->
+<!--    }-->
+<!--</style>-->
 
 <header class="d-flex">
     <div class="container">
@@ -54,41 +54,7 @@
                     <a href="javascript:void(0);"  class="dropdown-toggle products-cat themes-fonts text-decoration-none text-white" data-bs-toggle="dropdown" aria-expanded="false">Products
 
                     </a>
-                    <div class="sub-menu d-none">
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <a class="text-black" href="">Bundle</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a class="text-black" href="">Lace</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a class="text-black" href="">Full Lace Wigs</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a class="text-black" href="">Lace front wigs</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a class="text-black" href="">Bob wigs</a>
-                            </li>
-                            <li class="list-group-item">
-                                <a class="text-black" href="">Bulk Hair</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
-<!--                <div class=" url-wigs d-flex justify-content-center align-items-center">-->
-<!--                    <a href="/wigs" class="themes-fonts text-decoration-none text-white" >Wigs</a>-->
-<!--                </div>-->
-                <div class=" url-contact d-flex justify-content-center align-items-center" >
-                    <a href="<?php echo home_url(); ?>/contact" class="link-active themes-fonts text-decoration-none text-white" >Contact Us</a>
-                </div>
-                <div class=" url-phone d-flex justify-content-center align-items-center" >
-                    <a href="" class="link-active themes-fonts text-decoration-none text-white" >09 324 656 866</a>
-                </div>
-<!--                 <div>
-                    <a href="tel:09 324 656 866" class="themes-fonts text-decoration-none themes-text-color" >09 324 656 866</a>
-                </div> -->
             </div>
         </div>
     </div>

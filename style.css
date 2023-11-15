@@ -5,44 +5,25 @@
 }
 :root{
     --theme-color: #FF043C;
-    --theme-title-fonts: 'Optima';
+    --theme-title-fonts: 'Brandon Medium';
 }
 body{
     background: black !important;
 }
 header
 {
-/* 	position: sticky; */
-/* 	top: 0; */
+
 }
-.title-fonts-color
-{
-	font-family: var(--theme-title-fonts);
-    background: linear-gradient(to right, #FAF1D2, #F1D787);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
+
 section
 {
     margin: 100px 0;
 }
-.owl-carousel.owl-theme.owl-loaded.owl-drag
-{
-    margin-top: -180px;
-}
+
 .themes-title-fonts
 {
     font-family: var(--theme-title-fonts);
     font-size: 72px;
-    background: linear-gradient(to right, #FAF1D2, #F1D787);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    font-weight: 400;
-    /*line-height: 80px;*/
 }
 .themes-para-fonts
 {
@@ -55,134 +36,23 @@ section
     font-family: var(--theme-title-fonts);
 }
 
-.not-just-wigs
-{
-    width: 100%;
-    height: 238px;
-    margin-top: 200px;
-    flex-shrink: 0;
-    /*background: linear-gradient(270deg, rgba(80, 65, 42, 0.46) 0%,*/
-    /*rgba(80, 65, 42, 0.19) 44.30%, rgba(80, 65, 42, 0.46) 100%);*/
-}
-.not-just-wigs-bg
-{
-    background: linear-gradient(270deg, rgba(80, 65, 42, 0.46) 0%,
-    rgba(80, 65, 42, 0.19) 44.30%, rgba(80, 65, 42, 0.46) 100%) !important;
-}
-.themes-text-color
-{
-    color: #DFB26C !important;
-}
 
 
-/*choose your style*/
-
-.golden-border-box
-{
-    width: 100%;
-    height: 160px;
-    margin: 200px 0 0 0;
-    flex-shrink: 0;
-    border-radius: 188px;
-    /*background: radial-gradient(50.00% 365.21% at 50.00% 50.89%, #000 0%, #DFB26C 100%), #D9D9D9;*/
-}
-.demo-toy-img-control
-{
-    margin-top: -120px;
-    position: absolute;
-    z-index: 2;
-    margin-left: 3%;
-}
-.hair-card
-{
-    height: 400px;
-    overflow: hidden;
-    /*padding: 17.5px 14.026px 31px 17.526px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #000;
-    background: #FFF;
-}
-.themes-mt
-{
-    margin-top: 100px;
-}
-.gradient-card
-{
-    background: linear-gradient(180deg, #000 0%, #50412A 100%);
-    /*background: yellow;*/
-}
-
-.expend-div
-{
-    width: 100%;
-    height: auto;
-    border: 1.5px solid #C2B9AB;
-    color: #C2B9AB;
-}
-.theme-card-bg
-{
-    background: linear-gradient(180deg, #50412A 0%, rgba(80, 65, 42, 0.28) 100%);
-}
-.theme-gradient-bg
-{
-    background: linear-gradient(180deg, #101010 0%, #3F3422 100%) !important;
-}
-.subscribe-input
-{
-    width: 70%;
-    padding: 15px;
-    border: 1.5px solid #C2B9AB;
-    background: transparent;
-}
-.subscribe-input:focus
-{
-	border-color: #C2B9AB !important;
-	border: 1.5px solid #C2B9AB !important;
-}
-.subscribe-btn
-{
-    margin-left: -5px;
-    width: 30%;
-    padding: 15px;
-    border: 1.5px solid #C2B9AB;
-    background: #D7C487;
-	text-decoration: none;
-}
 p{
     font-family: var(--theme-title-fonts);
-    background: linear-gradient(to right, #FAF1D2, #F1D787);
     -webkit-background-clip: text;
-/*     -webkit-text-fill-color: transparent; */
     background-clip: text;
     text-fill-color: transparent;
 }
 a{
     /*list-style: none;*/
 	color: #F1D787 !important;
-
     text-decoration: none !important;
 }
 li{
     list-style-type: none;
 }
-.social-icon
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px !important;
-    height: 40px !important;
-    border-radius: 50% !important;
-    border: 1.5px solid #C2B9AB;
-}
-.active-border-color
-{
-    /*padding: 10px;*/
-    border-bottom: 2px solid #B59667;
-}
+
 
 @media only screen and (min-width: 992px) {
     /*desktop*/
@@ -192,70 +62,17 @@ li{
         margin: 0 auto;
         height: 60px;
     }
-    .mt-ml-md-div
-    {
-        margin: 60px 0 0 60px !important;
-    }
-    .text-md-padding
-    {
-        padding: 50px;
-    }
-    .mt-md-100px
-    {
-        margin-top: 100px;
-    }
-    .mt-ml-md-img
-    {
-        margin: 60px 0 0 120px;
-    }
-    .right-themes-container
-    {
-        width: 90%;
-        margin-left: 8%;
-        /*border: 3px solid red;*/
-    }
-    .url-combo
-    {
-        height: 92px;
-    }
-    .text-content
-    {
-        padding: 0 140px;
-    }
-    .custom-theme-container
-    {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .coming-soon
-    {
-        /*font-weight: 600px;*/
-        font-size: 73px;
-        color: white;
-    }
-    .footer-row
-    {
-        position: fixed;
-        bottom: 120px;
-        width: 100%;
-    }
 
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     /*mobile*/
-    /*.for-mobile-w*/
-	.not-just-wigs
-	{
-		margin-top: 300px;
-	}
     header
     {
         width: 95%;
         margin: 0 auto;
         height: 60px;
-/* 		position: sticky; */
 		top: 0;
     }
     .custom-theme-container
@@ -263,27 +80,15 @@ li{
         width: 100%;
         margin: auto;
     }
-    .coming-soon
-    {
-        /*font-weight: 600px;*/
-        font-size: 25px;
-        color: white;
+    .hambager-menu {
+        /*background: red;*/
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+        display: block;
     }
-    .footer-row
-    {
-        position: fixed;
-        bottom: 20px;
-        width: 100%;
-        left: 30%;
-    }
-	.header-logo-mobile-margin
-	{
-		margin: 15px 0;
-	}
+
 }
-
-
-
 
 .bar
 {
@@ -298,35 +103,6 @@ li{
     /*width: 10%;*/
     display: none;
     /*float: right;*/
-}
-@media screen and (max-width: 768px)
-{
-    .hambager-menu {
-        /*background: red;*/
-        overflow: hidden;
-        width: 50px;
-        height: 50px;
-        display: block;
-    }
-
-}
-.hair-card
-{
-	transition: 0.5s;
-}
-
-.hair-card:hover
-{
- 	transform: scale(1.1);
-}
-.img-general-scale
-{
-	transition: 0.5s;
-}
-
-.img-general-scale:hover
-{
- 	transform: scale(1.1);
 }
 
 /*------------------- navbar overlay end ---------------------------*/
