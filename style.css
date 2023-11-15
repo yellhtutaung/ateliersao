@@ -7,12 +7,13 @@
     --theme-color: #FF043C;
     --theme-title-fonts: 'Brandon Medium';
 }
-
+body{
+    font-family: var(--theme-title-fonts);
+}
 header
 {
-
+    
 }
-
 section
 {
     margin: 100px 0;
@@ -59,6 +60,12 @@ li{
         width: 80%;
         margin: 0 auto;
         height: 60px;
+    }
+    .theme-container
+    {
+        width: 80%;
+        margin: 0 auto;
+        height: 150px;
     }
 
 }
