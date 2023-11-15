@@ -37,6 +37,9 @@
                     <li>
                         <a href="">THE BRAND</a>
                     </li>
+                    <li>
+                        <a href="">WORKS</a>
+                    </li>
                 </ul>
             </div>
             </div>
@@ -45,7 +48,16 @@
 <!--				<img class="d-inline " src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/logo/dmd_logo.svg" alt="">-->
                 <h5 class="d-inline text-white mt-3 fw-bold themes-fonts">Arelier Sao</h5>
 				</a>
-                
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        <a href="">INTERIORS</a>
+                    </li>
+                    <li>
+                        <a href="">MORE</a>
+                    </li>
+                </ul>
             </div>
 
         </div>
