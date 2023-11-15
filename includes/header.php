@@ -42,12 +42,11 @@
                     </li>
                 </ul>
             </div>
-            </div>
-                <div class="col-md-4">
-				<a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
-<!--				<img class="d-inline " src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/logo/dmd_logo.svg" alt="">-->
+            <div class="col-md-4">
+                <a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
+    <!--				<img class="d-inline " src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/logo/dmd_logo.svg" alt="">-->
                 <h5 class="d-inline text-white mt-3 fw-bold themes-fonts">Arelier Sao</h5>
-				</a>
+                </a>
             </div>
             <div class="col-md-4">
                 <ul>
@@ -59,7 +58,6 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </div>
 	<div class="col-sm-6 hambager-menu mt-3">
