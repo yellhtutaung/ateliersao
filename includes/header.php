@@ -3,18 +3,6 @@
     {
         border: 2px solid red;
     }
-    .header-listing
-    {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        margin-bottom: 0px;
-    }
-    .header-listing , li
-    {
-        padding: 20px 20px 20px 0;
-    }
-
 </style>
 
 <header class="d-flex">
