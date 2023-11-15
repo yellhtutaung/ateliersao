@@ -35,7 +35,7 @@
             <div class="col-sm-6 col-md-6 d-flex align-items-center justify-content-start">
 				<a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
 				<img class="d-inline " src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/dmd_logo.svg" alt="">
-                <h5 class="d-inline text-white mt-3 fw-bold themes-fonts">DMD Hair Products</h5>
+                <h5 class="d-inline text-white mt-3 fw-bold themes-fonts">Arelier Sao</h5>
 				</a>
                 
             </div>
