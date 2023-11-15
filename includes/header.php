@@ -60,11 +60,11 @@
             </div>
         </div>
     </div>
-	<div class="col-sm-6 hambager-menu mt-3">
-		<div class="bar"></div>
-		<div class="bar"></div>
-		<div class="bar"></div>
-	</div>
+<!--	<div class="col-sm-6 hambager-menu mt-3">-->
+<!--		<div class="bar"></div>-->
+<!--		<div class="bar"></div>-->
+<!--		<div class="bar"></div>-->
+<!--	</div>-->
 </header>
 
 <div id="navbar_overlay" class="overlay" style="height: 0%;" >
