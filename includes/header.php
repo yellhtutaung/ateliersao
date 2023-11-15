@@ -1,8 +1,5 @@
 <style>
-    .col-md-4
-    {
-        border: 2px solid red;
-    }
+    
 </style>
 
 <header class="d-flex">
@@ -13,9 +10,9 @@
                     <li class="pr-3">
                         <a class="menu-font" href="">THE BRAND</a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="">WORKS</a>-->
-<!--                    </li>-->
+                    <li>
+                        <a href="">WORKS</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-md-4">
