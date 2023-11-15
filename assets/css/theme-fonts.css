@@ -22,3 +22,22 @@
         /*font-weight: 400;*/
         src: local('Brandon Regular'), url('../fonts/Brandon_reg.otf') format('otf');
     }
+
+
+
+    @font-face {
+        font-family: 'Sackersgothicstd Light';
+        src: local('Sackersgothicstd Light'), url('../fonts/sackersgothicstd-light.otf') format('otf');
+    }
+
+
+    @font-face {
+        font-family: 'Sackersgothicstd Medium';
+        src: local('Sackersgothicstd Medium'), url('../fonts/sackersgothicstd-medium.otf') format('otf');
+    }
+
+
+    @font-face {
+        font-family: 'Sackersgothicstd Heavy';
+        src: local('Sackersgothicstd Heavy'), url('../fonts/sackersgothicstd-heavy.otf') format('otf');
+    }

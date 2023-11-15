@@ -1,62 +1,49 @@
 <style>
-    body{
-        background: black;
+    .col-md-4
+    {
+        border: 2px solid red;
     }
-    /*.sub-menu*/
-    /*{*/
-    /*    margin: 445px 0 0 7.5%;*/
-    /*    width: 13%;*/
-    /*    height: auto;*/
-    /*    position: absolute;*/
-    /*    z-index: 5;*/
-    /*}*/
-    /*.list-group-item a*/
-    /*{*/
-    /*    font-weight: lighter !important;*/
-    /*    color: white;*/
-    /*}*/
-    /*.list-group-item*/
-    /*{*/
-    /*    display: flex;*/
-    /*    justify-content: start;*/
-    /*    align-items: center;*/
-    /*    margin: 0.5px 0;*/
-    /*    height: 58px;*/
-    /*}*/
-    /*.list-group-item:hover*/
-    /*{*/
-    /*    background: #D7C487;*/
-    /*}*/
-    /*.list-group{*/
-    /*    border-radius: 0px !important;*/
-    /*}*/
+    .header-listing
+    {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 0px;
+    }
+    .header-listing , li
+    {
+        padding: 20px 20px 20px 0;
+    }
+
 </style>
 
 <header class="d-flex">
     <div class="theme-container">
         <div class="row">
             <div class="col-md-4">
-                <ul>
-                    <li>
-                        <a href="">THE BRAND</a>
+                <ul class="header-listing">
+                    <li class="pr-3">
+                        <a class="menu-font" href="">THE BRAND</a>
                     </li>
-                    <li>
-                        <a href="">WORKS</a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="">WORKS</a>-->
+<!--                    </li>-->
                 </ul>
             </div>
             <div class="col-md-4">
-                <a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
-    <!--				<img class="d-inline " src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/logo/dmd_logo.svg" alt="">-->
-                <h5 class="d-inline text-white mt-3 fw-bold themes-fonts">Arelier Sao</h5>
-                </a>
+                <div class="overflow-hidden">
+                    <a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
+                        <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/sao.png" alt="">
+                    </a>
+                </div>
+
             </div>
             <div class="col-md-4">
-                <ul>
+                <ul class="header-listing" style="justify-content: end;padding-right: 0px;">
                     <li>
                         <a href="">INTERIORS</a>
                     </li>
-                    <li>
+                    <li style="padding-right: 0px!important;">
                         <a href="">MORE</a>
                     </li>
                 </ul>

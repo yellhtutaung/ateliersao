@@ -9,6 +9,7 @@
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logo/dmd_logo.svg" sizes="32x32" />
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/theme-fonts.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animate.scroll.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/poppins.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.min.css">
