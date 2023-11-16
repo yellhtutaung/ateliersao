@@ -4,10 +4,14 @@
     {
         background: #F0F0EC;
     }
+    .section-divider-margin
+    {
+        margin: 150px 0px;
+    }
 </style>
 <body class="body-bg">
     <?php include 'includes/header.php'?>
-    <div class="theme-container">
+    <div class="theme-container mt-4">
         <div class="img-container mb-5 pb-5">
             <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/s1.jpg" alt="">
         </div>
@@ -42,37 +46,40 @@
             </div>
         </div>
 
-        <p class="text-center mt-3">
+        <p class="text-center mt-5">
             <a href="" style="font-size: 15px;" class="text-center themes-para-fonts my-5">SEE MORE SERVICE</a>
         </p>
 
-        <p class="text-center themes-title-fonts my-5"><b>FEATURED WORKS</b></p>
-
-        <div class="row">
-            <div class="col-sm-12 col-md-3">
-                <div class="img-container">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/1.jpg" alt="">
+        <div class="section-divider-margin">
+            <p class="text-center themes-title-fonts my-5"><b>FEATURED WORKS</b></p>
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="img-container">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="img-container">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="img-container">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="img-container">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/4.jpg" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3">
-                <div class="img-container">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/2.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <div class="img-container">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/3.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <div class="img-container">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/4.jpg" alt="">
-                </div>
-            </div>
+            <p class="text-center mt-5">
+                <a href="" style="font-size: 15px;" class="text-center themes-para-fonts my-5">EXPLORE</a>
+            </p>
         </div>
-        <p class="text-center mt-3">
-            <a href="" style="font-size: 15px;" class="text-center themes-para-fonts my-5">EXPLORE</a>
-        </p>
+
+
     </div>
 
 
