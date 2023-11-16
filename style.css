@@ -56,15 +56,13 @@ section
 .themes-para-fonts
 {
     font-family: var(--brandon-font);
-    font-size: 20px;
+    font-size: 22px;
+    color: #737372;
 }
 .themes-fonts
 {
     font-family: var(--theme-title-fonts);
 }
-
-
-
 p{
     font-family: var(--theme-title-fonts);
     -webkit-background-clip: text;
