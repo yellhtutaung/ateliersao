@@ -1,5 +1,8 @@
 <style>
-
+    .col-md-4
+    {
+        /*border: 1px solid red;*/
+    }
 </style>
 
 <header class="d-flex">
@@ -16,7 +19,7 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <div style="width: 70%;" class="img-container m-auto">
+                <div style="width: 70%;" class="img-container mx-auto mt-3">
                     <a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
                         <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/sao.png" alt="">
                     </a>
