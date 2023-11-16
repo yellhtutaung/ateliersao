@@ -7,7 +7,7 @@
             <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/s1.jpg" alt="">
         </div>
 
-        <p class="text-center themes-title-fonts my-5">BRAND STORY</p>
+        <p class="text-center themes-title-fonts my-5"><b>BRAND STORY</b></p>
 
 
     </div>
