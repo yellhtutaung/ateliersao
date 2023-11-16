@@ -1,8 +1,4 @@
 <style>
-    .col-md-4
-    {
-        border: 2px solid red;
-    }
     .footer-listing , li , a
     {
         display: inline;
