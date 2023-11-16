@@ -4,7 +4,7 @@
 
 <header class="d-flex">
     <div class="theme-container">
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-4">
                 <ul class="header-listing">
                     <li class="pr-3">
@@ -16,12 +16,11 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <div class="overflow-hidden">
+                <div style="width: 70%;" class="img-container m-auto">
                     <a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
                         <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/sao.png" alt="">
                     </a>
                 </div>
-
             </div>
             <div class="col-md-4">
                 <ul class="header-listing" style="justify-content: end;padding-right: 0px;">
