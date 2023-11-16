@@ -50,7 +50,7 @@ section
 }
 .themes-title-fonts
 {
-    font-family: var(--theme-title-fonts);
+    font-family: var(--brandon-font);
     font-size: 20px;
 }
 .themes-para-fonts
