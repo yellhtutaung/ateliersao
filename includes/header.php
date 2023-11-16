@@ -11,10 +11,10 @@
             <div class="col-md-4">
                 <ul class="header-listing">
                     <li class="pr-3">
-                        <a class="menu-font" href="">THE BRAND</a>
+                        <a class="text-black" href="">THE BRAND</a>
                     </li>
                     <li>
-                        <a href="">WORKS</a>
+                        <a class="text-black" href="">WORKS</a>
                     </li>
                 </ul>
             </div>
@@ -28,10 +28,10 @@
             <div class="col-md-4">
                 <ul class="header-listing" style="justify-content: end;padding-right: 0px;">
                     <li>
-                        <a href="">INTERIORS</a>
+                        <a class="text-black" href="">INTERIORS</a>
                     </li>
                     <li style="padding-right: 0px!important;">
-                        <a href="">MORE</a>
+                        <a class="text-black" href="">MORE</a>
                     </li>
                 </ul>
             </div>
