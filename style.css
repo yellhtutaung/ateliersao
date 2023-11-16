@@ -68,13 +68,10 @@ section
     font-family: var(--theme-title-fonts);
 }
 p{
-    font-family: var(--theme-title-fonts);
-    -webkit-background-clip: text;
+    font-family: var(--brandon-font);
     background-clip: text;
-    text-fill-color: transparent;
 }
 a{
-    /*font-family: var(--theme-title-fonts);*/
     text-decoration: none !important;
     color: gray !important;
 }
