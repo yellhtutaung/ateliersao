@@ -20,7 +20,10 @@
 body{
     font-family: var(--theme-title-fonts);
 }
-
+footer
+{
+    background: #C8B6AD;
+}
 .header-listing
 {
     display: flex;

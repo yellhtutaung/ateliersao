@@ -43,16 +43,40 @@
         </div>
 
         <p class="text-center mt-3">
-            <a href="" class="text-center themes-para-fonts my-5">SEE MORE SERVICE</a>
+            <a href="" style="font-size: 15px;" class="text-center themes-para-fonts my-5">SEE MORE SERVICE</a>
         </p>
 
-        
+        <p class="text-center themes-title-fonts my-5"><b>FEATURED WORKS</b></p>
 
-
+        <div class="row">
+            <div class="col-sm-12 col-md-3">
+                <div class="img-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="img-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="img-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="img-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-3">
+            <a href="" style="font-size: 15px;" class="text-center themes-para-fonts my-5">EXPLORE</a>
+        </p>
     </div>
 
 
-<!--    --><?php //include 'includes/footer.php'?>
+    <?php include 'includes/footer.php'?>
 
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js" ></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl-setup.js" ></script>
