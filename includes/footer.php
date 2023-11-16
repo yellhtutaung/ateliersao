@@ -3,6 +3,11 @@
     {
         border: 2px solid red;
     }
+    .footer-listing , li , a
+    {
+        display: inline;
+        color: white;
+    }
 </style>
 
 <footer style="padding: 50px 0;">
@@ -11,19 +16,28 @@
             <div class="col-sm-12 col-md-4">
                 <p class="themes-para-fonts text-white">Atelier Sao Design Inc.</p>
                 <p class="themes-para-fonts text-white mt-2">A Creative Concept Driven International Award Winning Interior Architecture Studio</p>
-
                 <p class=" mt-5 text-white">
                     <a class="text-white" href="">Site by Future Now</a>
                 </p>
-
             </div>
             <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
                 <div class="img-container d-flex justify-content-center align-items-center">
                     <img style="width: 80px;height: auto;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/white.png" alt="">
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                <ul class="footer-listing">
+                    <li>
+                        <a class="text-white" href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a class="text-white" href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="text-white" href="">Instagram</a>
+                    </li>
+                </ul>
+<!--                <p class="themes-para-fonts text-white">All images @ Atelier Sao</p>-->
             </div>
         </div>
     </div>
