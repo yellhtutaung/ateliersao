@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atelier Sao</title>
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logo/dmd_logo.svg" sizes="32x32" />
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logo/meta-orange.png" sizes="32x32" />
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/theme-fonts.css">

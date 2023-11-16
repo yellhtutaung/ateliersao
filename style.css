@@ -2,6 +2,10 @@
     font-family: "SackersgothicstdLight";
     src: url('assets/fonts/sackersgothicstd-light.otf') format('opentype');
 }
+@font-face {
+    font-family: 'BrandonMedium';
+    src: url('assets/fonts/Brandon_med.otf') format('opentype');
+}
 
 *{
     padding: 0;
@@ -11,6 +15,7 @@
 :root{
     --theme-color: #FF043C;
     --theme-title-fonts: 'SackersgothicstdLight';
+    --brandon-font: 'BrandonMedium';
 }
 body{
     font-family: var(--theme-title-fonts);
@@ -46,12 +51,11 @@ section
 .themes-title-fonts
 {
     font-family: var(--theme-title-fonts);
-    font-size: 25px;
+    font-size: 20px;
 }
 .themes-para-fonts
 {
-    font-family: var(--theme-title-fonts);
-    color: #C2B9AB;
+    font-family: var(--brandon-font);
     font-size: 20px;
 }
 .themes-fonts
