@@ -37,11 +37,16 @@ section
 {
     margin: 100px 0;
 }
-
+.img-container
+{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
 .themes-title-fonts
 {
     font-family: var(--theme-title-fonts);
-    font-size: 72px;
+    font-size: 25px;
 }
 .themes-para-fonts
 {
@@ -74,16 +79,11 @@ li{
 
 @media only screen and (min-width: 992px) {
     /*desktop*/
-    header
-    {
-        width: 90%;
-        margin: 0 auto;
-        /*height: 60px;*/
-    }
     .theme-container
     {
-        width: 95%;
+        width: 85%;
         margin: 0 auto;
+        border: 2px solid red;
     }
 
 }
@@ -91,23 +91,23 @@ li{
 
 @media only screen and (max-width: 768px) {
     /*mobile*/
-    header
-    {
-        width: 95%;
-        margin: 0 auto;
-		top: 0;
-    }
-    .custom-theme-container
-    {
-        width: 100%;
-        margin: auto;
-    }
-    .hambager-menu {
-        /*background: red;*/
-        overflow: hidden;
-        width: 50px;
-        display: block;
-    }
+    /*header*/
+    /*{*/
+    /*    width: 95%;*/
+    /*    margin: 0 auto;*/
+	/*	top: 0;*/
+    /*}*/
+    /*.custom-theme-container*/
+    /*{*/
+    /*    width: 100%;*/
+    /*    margin: auto;*/
+    /*}*/
+    /*.hambager-menu {*/
+    /*    !*background: red;*!*/
+    /*    overflow: hidden;*/
+    /*    width: 50px;*/
+    /*    display: block;*/
+    /*}*/
 
 }
 
