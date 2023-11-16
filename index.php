@@ -28,6 +28,20 @@
             </div>
         </div>
 
+        <div class="row left-text-card mx-0 mt-5">
+            <div class="col-sm-12 col-md-3 mr-0">
+                <p class="themes-para-fonts my-5">
+                    We focus on components or elements of a structur generally the one in charge of the architectural des and elements to create a coherent
+                </p>
+                <p class="text-center themes-title-fonts my-5"><b>ARCHITECTURE</b></p>
+            </div>
+            <div class="col-sm-12 col-md-9">
+                <div class="img-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/c2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
