@@ -12,7 +12,7 @@
                 <p class="themes-para-fonts text-white">Atelier Sao Design Inc.</p>
                 <p class="themes-para-fonts text-white mt-2">A Creative Concept Driven International Award Winning Interior Architecture Studio</p>
 
-                <p class="themes-para-fonts mt-5 text-white">
+                <p class=" mt-5 text-white">
                     <a class="text-white" href="">Site by Future Now</a>
                 </p>
 
