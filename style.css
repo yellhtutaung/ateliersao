@@ -6,6 +6,10 @@
     font-family: 'BrandonMedium';
     src: url('assets/fonts/Brandon_med.otf') format('opentype');
 }
+@font-face {
+    font-family: 'BrandonRegular';
+    src: url('assets/fonts/Brandon_reg.otf') format('opentype');
+}
 
 *{
     padding: 0;
@@ -13,12 +17,20 @@
     box-sizing: border-box;
 }
 :root{
-    --theme-color: #FF043C;
+    --theme-color: #fb9258;
     --theme-title-fonts: 'SackersgothicstdLight';
     --brandon-font: 'BrandonMedium';
+    --brandon-regular: 'BrandonRegular';
 }
 body{
     font-family: var(--theme-title-fonts);
+}
+.primary-theme-text-color{
+    color: var(--theme-color);
+}
+.works-main-title
+{
+    font-family: var(--brandon-regular);
 }
 footer
 {

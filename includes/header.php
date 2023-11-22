@@ -14,7 +14,7 @@
                         <a class="text-black" href="">THE BRAND</a>
                     </li>
                     <li>
-                        <a class="text-black" href="">WORKS</a>
+                        <a class="text-black" href="works">WORKS</a>
                     </li>
                 </ul>
             </div>
