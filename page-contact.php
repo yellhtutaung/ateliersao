@@ -52,7 +52,7 @@
 </div>
 <div class="theme-container my-5">
     <div class="img-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/map.png" alt="">
+        <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/map.png" alt="">
     </div>
 </div>
 
