@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-8">
                     <ul class="overlay-menu-for-large d-flex justify-content-between align-items-center">
-                        <li class="border-right-white"><a class="text-white" href="">THE BRAND</a></li>
+                        <li class="border-right-white"><a class="text-white" href="<?php echo home_url(); ?>">THE BRAND</a></li>
                         <li class="border-right-white"><a class="text-white" href="">INTERIORS</a></li>
                         <li class="border-right-white"><a class="text-white" href="<?php echo home_url(); ?>/works">WORK</a></li>
                         <li class=""><a class="text-white" href="<?php echo home_url(); ?>/contact">CONTACT</a></li>

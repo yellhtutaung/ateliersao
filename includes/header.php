@@ -11,7 +11,7 @@
             <div class="col-md-4">
                 <ul class="header-listing">
                     <li class="pr-3">
-                        <a class="text-black" href="">THE BRAND</a>
+                        <a class="text-black" href="<?php echo home_url(); ?>">THE BRAND</a>
                     </li>
                     <li>
                         <a class="text-black" href="<?php echo home_url(); ?>/works">WORKS</a>

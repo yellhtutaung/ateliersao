@@ -96,8 +96,10 @@
 
 </div>
 
-
+<?php include 'includes/desk-menu-overlay.php'?>
 <?php include 'includes/footer.php'?>
+<?php include 'includes/footer-script.php'?>
+
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js" ></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl-setup.js" ></script>
