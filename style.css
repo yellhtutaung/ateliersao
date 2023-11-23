@@ -90,7 +90,42 @@ a{
 li{
     list-style-type: none;
 }
-
+.menu-overlay
+{
+    height: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #c7b5ac;
+    overflow-x: hidden;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    transition: 0.5s;
+    z-index: 3;
+}
+.overlay-menu-for-large , li , a
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*.overlay-menu-for-large , li*/
+/*{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+.border-right-white
+{
+    border-right-style: solid; /* This line is optional - sets the border style */
+    border-right-width: 1px;   /* This line is optional - sets the border width */
+    border-right-color: white;
+}
+.overlay-close-text
+{
+    font-size: 20px;
+}
 
 @media only screen and (min-width: 992px) {
     /*desktop*/

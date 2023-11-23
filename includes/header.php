@@ -14,7 +14,7 @@
                         <a class="text-black" href="">THE BRAND</a>
                     </li>
                     <li>
-                        <a class="text-black" href="works">WORKS</a>
+                        <a class="text-black" href="<?php echo home_url(); ?>/works">WORKS</a>
                     </li>
                 </ul>
             </div>
@@ -30,8 +30,8 @@
                     <li>
                         <a class="text-black" href="">INTERIORS</a>
                     </li>
-                    <li style="padding-right: 0px!important;">
-                        <a class="text-black" href="">MORE</a>
+                    <li class="more-menu" style="padding-right: 0px!important;">
+                        <a class="text-black" href="javascript:void(0);">MORE</a>
                     </li>
                 </ul>
             </div>

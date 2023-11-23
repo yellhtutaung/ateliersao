@@ -20,7 +20,7 @@
 
         <div class="row left-text-card mx-0">
             <div class="col-sm-12 col-md-3 mr-0">
-                <p class="themes-para-fonts my-5">
+                <p class="themes-para-fonts mt-5">
                     We make indoor spaces functional, safe, and beaut determining space requirements and selecting esse decorative items, such as colors, lighting, and mate,
                 </p>
                 <p class="text-center themes-title-fonts my-5"><b>INTERIOR DESIGN</b></p>
@@ -34,7 +34,7 @@
 
         <div class="row left-text-card mx-0 mt-5">
             <div class="col-sm-12 col-md-3 mr-0">
-                <p class="themes-para-fonts my-5">
+                <p class="themes-para-fonts mt-5">
                     We focus on components or elements of a structur generally the one in charge of the architectural des and elements to create a coherent
                 </p>
                 <p class="text-center themes-title-fonts my-5"><b>ARCHITECTURE</b></p>
@@ -82,8 +82,10 @@
 
     </div>
 
+    <?php include 'includes/desk-menu-overlay.php'?>
 
     <?php include 'includes/footer.php'?>
+    <?php include 'includes/footer-script.php'?>
 
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js" ></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl-setup.js" ></script>
