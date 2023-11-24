@@ -53,7 +53,10 @@ footer
 {
     font-family: var(--theme-title-fonts);
 }
-
+.explore-devider
+{
+    margin-bottom: 100px;
+}
 section
 {
     margin: 100px 0;

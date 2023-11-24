@@ -89,7 +89,7 @@
             </div>
         </div>
 
-        <p data-aos="fade-up" data-aos-duration="1000" class="opacity-50 text-center mb-5">EXPLORE</p>
+        <p class="opacity-50 text-center explore-devider">EXPLORE</p>
 
 <!--    </div>-->
 
