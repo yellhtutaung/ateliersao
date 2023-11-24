@@ -67,7 +67,7 @@ section
 .themes-title-fonts
 {
     font-family: var(--brandon-font);
-    font-size: 30px;
+    font-size: 26px;
     letter-spacing: 5px;
 }
 .themes-para-fonts
@@ -108,7 +108,6 @@ li{
     width: 100% !important;
     position: fixed;
     top: 0;
-    left: 0;
     background-color: #c7b5ac;
     overflow-x: hidden !important;
     /*display: flex;*/
@@ -119,15 +118,15 @@ li{
 }
 .overlay-menu-for-large , li , a
 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
-/*.overlay-menu-for-large , li*/
-/*{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+.overlay-menu-for-large , li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .border-right-white
 {
     border-right-style: solid; /* This line is optional - sets the border style */

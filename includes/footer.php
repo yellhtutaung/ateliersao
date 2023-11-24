@@ -13,7 +13,7 @@
                 <p class="themes-para-fonts text-white">Atelier Sao Design Inc.</p>
                 <p class="themes-para-fonts text-white mt-2">A Creative Concept Driven International Award Winning Interior Architecture Studio</p>
                 <p class=" mt-5 text-white">
-                    <a class="text-white" href="">Site by Future Now</a>
+                    <a class="text-white brandon-font" href="https://futurenowmm.com/">Site by Future Now</a>
                 </p>
             </div>
             <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
@@ -24,13 +24,13 @@
             <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
                 <ul class="footer-listing">
                     <li>
-                        <a class="text-white" href="">Contact Us</a>
+                        <a class="text-white brandon-font" href="">Contact Us</a>
                     </li>
                     <li>
-                        <a class="text-white" href="">Facebook</a>
+                        <a class="text-white brandon-font" href="">Facebook</a>
                     </li>
                     <li>
-                        <a class="text-white" href="">Instagram</a>
+                        <a class="text-white brandon-font" href="">Instagram</a>
                     </li>
                 </ul>
 <!--                <p class="themes-para-fonts text-white">All images @ Atelier Sao</p>-->

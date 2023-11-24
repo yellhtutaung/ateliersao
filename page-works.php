@@ -14,19 +14,19 @@
 <?php include 'includes/header.php'?>
 <div class="theme-container mt-4">
     <div class="custom-my-devider">
-        <h1 class="text-center works-main-title">CHANGING THE WORLD,</h1>
-        <h1 class="text-center works-main-title">ONE SPACE AT A TIME</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1000" class="text-center works-main-title">CHANGING THE WORLD,</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1200" class="text-center works-main-title">ONE SPACE AT A TIME</h1>
     </div>
 
     <div class="theme-container mt-4">
 
-        <div class="d-flex justify-content-center align-items-center">
+        <div data-aos="fade-up" data-aos-duration="1500" class="d-flex justify-content-center align-items-center">
             <h5 class="primary-theme-text-color">INTERIOR DESIGN</h5>
             <h5 class="text-muted"> &nbsp; | &nbsp;</h5>
             <h5 class="opacity-50">ARCHITECTURE</h5>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="1800">
             <div class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/1.jpg" alt="">
@@ -57,7 +57,7 @@
                     <p class="opacity-50">JULY 2021</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 my-5">
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/4.jpg" alt="">
                 </div>
@@ -67,7 +67,7 @@
                     <p class="opacity-50">JULY 2021</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 my-5">
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/5.jpg" alt="">
                 </div>
@@ -77,7 +77,7 @@
                     <p class="opacity-50">JULY 2021</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 my-5">
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/6.jpg" alt="">
                 </div>
@@ -90,7 +90,7 @@
 
         </div>
 
-        <p class="opacity-50 text-center mb-5">EXPLORE</p>
+        <p data-aos="fade-up" data-aos-duration="1000" class="opacity-50 text-center mb-5">EXPLORE</p>
 
     </div>
 
@@ -104,6 +104,10 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js" ></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl-setup.js" ></script>
 <script>
+
+    $(document).ready(function() {
+        AOS.init();
+    });
     if (screen.width < 600) {
         $('.for-mobile').removeAttr("src");
         console.log('remove');

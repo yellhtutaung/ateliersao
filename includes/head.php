@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/theme-fonts.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animate.scroll.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/poppins.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/aos.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap@5.3.0.min.css" >
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.2.1.slim.min.js" ></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/animate-scroll.js" ></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/aos.js" ></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
