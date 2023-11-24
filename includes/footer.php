@@ -15,8 +15,8 @@
                     <a class="text-white brandon-regular" href="https://futurenowmm.com/">Site by Future Now</a>
                 </p>
             </div>
-            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
-                <div class="img-container d-flex justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-4">
+                <div class="img-container d-flex justify-content-center ">
                     <img style="width: 80px;height: auto;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/white.png" alt="">
                 </div>
             </div>
