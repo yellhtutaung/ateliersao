@@ -23,7 +23,7 @@
             <div class="col-sm-12 col-md-4 ">
                 <ul class="footer-listing d-flex justify-content-between align-items-center">
                     <li>
-                        <a class="text-white brandon-regular" href="">Contact Us</a>
+                        <a class="text-white brandon-regular" href="<?php echo home_url(); ?>/contact">Contact Us</a>
                     </li>
                     <li>
                         <a class="text-white brandon-regular" href="">Facebook</a>

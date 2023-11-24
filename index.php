@@ -1,9 +1,5 @@
 <?php include 'includes/head.php'?>
 <style>
-    .left-text-card
-    {
-        background: #F0F0EC;
-    }
     .section-divider-margin
     {
         margin: 150px 0px;

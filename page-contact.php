@@ -52,7 +52,8 @@
 </div>
 <div class="theme-container my-5">
     <div class="img-container">
-        <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/map.png" alt="">
+        <iframe style="border:0;height: 700px;" class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15276.059463229301!2d96.1308683!3d16.8256186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194ca12fe260b%3A0x5ec3dae9d33b5892!2sM-Tower!5e0!3m2!1sen!2smm!4v1698119741082!5m2!1sen!2smm" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!--        <img class="w-100 h-auto" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/map.png" alt="">-->
     </div>
 </div>
 

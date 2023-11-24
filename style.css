@@ -24,7 +24,8 @@
 }
 body{
     font-family: var(--theme-title-fonts);
-    background: #f5f5f1;
+    background: #f5f5f1 !important;
+    /*background: black !important;*/
 }
 .primary-theme-text-color{
     color: var(--theme-color) !important;
@@ -44,7 +45,7 @@ footer
     justify-content: start;
     margin-bottom: 0px;
 }
-.header-listing , li
+.header-listing > li
 {
     padding: 20px 20px 20px 0;
 }
@@ -129,6 +130,11 @@ li{
 {
     text-align: center;
 }
+.divider-bar
+{
+    color: white;
+    height: 60px;
+}
 .border-right-white
 {
     border-right-style: solid; /* This line is optional - sets the border style */
@@ -153,7 +159,10 @@ li{
 {
     padding: 0 32px 40px 32px !important;
 }
-
+.left-text-card
+{
+    background: #F0F0EC !important;
+}
 
 @media only screen and (min-width: 992px) {
     /*desktop*/
