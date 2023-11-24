@@ -19,7 +19,7 @@
         <p data-aos="fade-up" data-aos-duration="1000" class="themes-para-fonts my-5" >Atelier Sao Design Inc is a luxury interior architecture. Founded in 2016 as int design studio, the Yangon-based an interdisciplinary brand has evolved into an interior rchitecture firm that is practicing the contemporary deFounded in 2016 as an interior design studio, the Yangon-based an interdisciplinary. The studio presently consists of a team of creative individuals ho share design expertise and inspiration through a wide range of skills such as Interior Design, Interior Architecture, Product Design, Visual Merchandising, Interior Styling, Creative Interior Branding,</p>
 
         <div data-aos="fade-up" data-aos-duration="1000" class="row left-text-card mx-0 px-0 "style="margin-top: 130px;">
-            <div class="col-sm-12 col-md-4 mr-0 d-flex flex-column justify-content-end p-5">
+            <div class="col-sm-12 col-md-4 mr-0 d-flex flex-column justify-content-end left-card-padding">
                 <p class="themes-para-fonts mt-5">
                     We make indoor spaces functional, safe, and beaut determining space requirements and selecting esse decorative items, such as colors, lighting, and mate,
                 </p>
@@ -33,7 +33,7 @@
         </div>
 
         <div data-aos="fade-up" data-aos-duration="1000" class="row left-text-card mx-0 mt-5">
-            <div class="col-sm-12 col-md-4 mr-0 d-flex flex-column justify-content-end p-5">
+            <div class="col-sm-12 col-md-4 mr-0 d-flex flex-column justify-content-end left-card-padding">
                 <p class="themes-para-fonts mt-5">
                     We focus on components or elements of a structur generally the one in charge of the architectural des and elements to create a coherent
                 </p>
