@@ -9,7 +9,7 @@
     <div class="theme-container">
         <div class="row mt-5 mb-4">
             <div class="col-md-4">
-                <ul class="header-listing">
+                <ul class="header-listing" style="justify-content: start;padding-left: 0px;">
                     <li class="pr-3">
                         <a class="text-black opacity-50" href="<?php echo home_url(); ?>">THE BRAND</a>
                     </li>
@@ -19,7 +19,7 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <div style="width: 80%;" class="img-container mx-auto mt-3">
+                <div style="width: 80%;" class="img-container mx-auto">
                     <a class="header-logo-mobile-margin text-decoration-none p-md-0 m-md-0" href="<?php echo home_url();?>" >
                         <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/sao.png" alt="">
                     </a>

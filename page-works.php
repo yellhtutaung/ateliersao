@@ -18,7 +18,7 @@
         <h1 data-aos="fade-up" data-aos-duration="1200" class="text-center works-main-title">ONE SPACE AT A TIME</h1>
     </div>
 
-    <div class="theme-container mt-4">
+<!--    <div class="theme-container mt-4">-->
 
         <div data-aos="fade-up" data-aos-duration="1500" class="d-flex justify-content-center align-items-center">
             <h5 class="primary-theme-text-color">INTERIOR DESIGN</h5>
@@ -26,8 +26,8 @@
             <h5 class="opacity-50">ARCHITECTURE</h5>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-duration="1800">
-            <div class="col-sm-12 col-md-4 my-5">
+        <div class="row px-0 mx-0" data-aos="fade-up" data-aos-duration="1800">
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/1.jpg" alt="">
                 </div>
@@ -37,7 +37,7 @@
                     <p class="opacity-50">JULY 2021</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 my-5">
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/2.jpg" alt="">
                 </div>
@@ -47,7 +47,7 @@
                     <p class="opacity-50">JULY 2021</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 my-5">
+            <div data-aos="fade-up" data-aos-duration="1500" class="col-sm-12 col-md-4 my-5">
                 <div class="img-container">
                     <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/arche/3.jpg" alt="">
                 </div>
@@ -87,12 +87,11 @@
                     <p class="opacity-50">JULY 2021</p>
                 </div>
             </div>
-
         </div>
 
         <p data-aos="fade-up" data-aos-duration="1000" class="opacity-50 text-center mb-5">EXPLORE</p>
 
-    </div>
+<!--    </div>-->
 
 </div>
 
