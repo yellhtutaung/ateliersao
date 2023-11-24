@@ -1,7 +1,6 @@
 <style>
-    .footer-listing , li , a
+    .footer-listing
     {
-        display: inline;
         color: white;
     }
 </style>
@@ -10,10 +9,10 @@
     <div class="theme-container">
         <div class="row">
             <div class="col-sm-12 col-md-4">
-                <p class="themes-para-fonts text-white">Atelier Sao Design Inc.</p>
-                <p class="themes-para-fonts text-white mt-2">A Creative Concept Driven International Award Winning Interior Architecture Studio</p>
+                <p class="themes-para-fonts brandon-regular text-white mb-0">Atelier Sao Design Inc.</p>
+                <p class="themes-para-fonts brandon-regular text-white">A Creative Concept Driven International Award Winning Interior Architecture Studio</p>
                 <p class=" mt-5 text-white">
-                    <a class="text-white brandon-font" href="https://futurenowmm.com/">Site by Future Now</a>
+                    <a class="text-white brandon-regular" href="https://futurenowmm.com/">Site by Future Now</a>
                 </p>
             </div>
             <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
@@ -21,19 +20,20 @@
                     <img style="width: 80px;height: auto;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/white.png" alt="">
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
-                <ul class="footer-listing">
+            <div class="col-sm-12 col-md-4 ">
+                <ul class="footer-listing d-flex justify-content-between align-items-center">
                     <li>
-                        <a class="text-white brandon-font" href="">Contact Us</a>
+                        <a class="text-white brandon-regular" href="">Contact Us</a>
                     </li>
                     <li>
-                        <a class="text-white brandon-font" href="">Facebook</a>
+                        <a class="text-white brandon-regular" href="">Facebook</a>
                     </li>
                     <li>
-                        <a class="text-white brandon-font" href="">Instagram</a>
+                        <a class="text-white brandon-regular" href="">Instagram</a>
                     </li>
                 </ul>
-<!--                <p class="themes-para-fonts text-white">All images @ Atelier Sao</p>-->
+                <p style="margin-top: 80px" class="themes-para-fonts brandon-regular text-center text-white">All images @ Atelier Sao</p>
+
             </div>
         </div>
     </div>

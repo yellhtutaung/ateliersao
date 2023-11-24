@@ -73,7 +73,7 @@ section
 .themes-para-fonts
 {
     font-family: var(--brandon-font);
-    font-size: 22px;
+    font-size: 20px;
     color: #737372;
 }
 .themes-fonts
@@ -88,6 +88,10 @@ p{
 .brandon-font
 {
     font-family: var(--brandon-font);
+}
+.brandon-regular
+{
+    font-family: var(--brandon-regular);
 }
 .link-to-font-style
 {
