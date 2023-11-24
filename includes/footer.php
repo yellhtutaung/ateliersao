@@ -5,7 +5,7 @@
     }
 </style>
 
-<footer style="padding: 50px 0;">
+<footer style="padding: 100px 0;">
     <div class="theme-container">
         <div class="row">
             <div class="col-sm-12 col-md-4">
