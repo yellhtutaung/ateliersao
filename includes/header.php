@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <ul class="header-listing" style="justify-content: end;padding-right: 0px;">
                     <li>
-                        <a class="text-black opacity-50" href="">INTERIORS</a>
+                        <a href="<?php echo home_url(); ?>/interiors" class="text-black opacity-50" href="">INTERIORS</a>
                     </li>
                     <li class="more-menu" style="padding-right: 0px!important;">
                         <a class="text-black opacity-50" href="javascript:void(0);">MORE</a>
