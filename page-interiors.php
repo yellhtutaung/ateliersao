@@ -12,6 +12,10 @@
     {
         padding: 50px;
     }
+    .themes-para-fonts
+    {
+        text-align: center !important;
+    }
 </style>
 <body class="body-bg">
 <?php include 'includes/header.php'?>
