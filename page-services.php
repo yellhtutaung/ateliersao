@@ -88,7 +88,7 @@
 
     const collapseUI = (id,title,description,img_url) =>
     {
-        return `<div class="expend-div expend${id} border-bottom-color">
+        return `<div data-aos="fade-up" data-aos-duration="1000" class="expend-div expend${id} border-bottom-color">
                 <a href="javascript:void(0)" class="row p-2 expend-click-${id} text-decoration-none" onclick="toggleOnOffBtn(${id},'add')">
                     <div class="col-11">
                         <p class="text-black mt-2">${title}</p>
