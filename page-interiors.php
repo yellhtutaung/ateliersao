@@ -35,7 +35,7 @@
             <p data-aos="fade-up" data-aos-duration="1000" class="themes-para-fonts my-5" >The studio presently consists of a team of creative individuals who share design expertise and inspiration through a wide range of skills such as Interior Design, Interior Architecture, Product Design, Visual Merchandising, Interior Styling, Creative Interior Branding, Environmental Graphic Application, and Architectural Integration.</p>
         </div>
     </div>
-    <p class="text-center themes-title-fonts mt-2 mb-4"><b>SERVICES & EXPERTISE</b></p>
+    <p data-aos="fade-up" data-aos-duration="1000" class="text-center themes-title-fonts mt-2 mb-4"><b>SERVICES & EXPERTISE</b></p>
     <div class="row">
         <div data-aos="fade-up" data-aos-duration="1000"  class="col-sm-12 col-md-6">
             <div class="same-gray-card p-5">
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <p style="opacity: 1;padding: 100px 0 30px 0;" class="text-center themes-title-fonts mt-5 mb-4"><b>WE THE TEAM</b></p>
+    <p data-aos="fade-up" data-aos-duration="1000"  style="opacity: 1;padding: 100px 0 30px 0;" class="text-center themes-title-fonts mt-5 mb-4"><b>WE THE TEAM</b></p>
     <div data-aos="fade-up" data-aos-duration="1000" class="img-container">
         <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/gp-photo.jpg" alt="">
     </div>
@@ -80,7 +80,7 @@
 
     <div class="row my-5">
         <div class="col-sm-12 col-md-6">
-            <p style="opacity: 1;" class="text-center themes-title-fonts mt-5 mb-4"><b>CLIENTELE</b></p>
+            <p style="opacity: 1;" data-aos="fade-up" data-aos-duration="1000"  class="text-center themes-title-fonts mt-5 mb-4"><b>CLIENTELE</b></p>
             <div data-aos="fade-up" data-aos-duration="1000"  class="row client-images-place">
 <!--                <div class="col-sm-4 col-md-3">-->
 <!--                    <div class="img-container">-->
@@ -92,7 +92,7 @@
 
         </div>
         <div class="col-sm-12 col-md-6">
-            <p style="opacity: 1;" class="text-center themes-title-fonts mt-5 mb-4"><b>FEATURED ON</b></p>
+            <p style="opacity: 1;" data-aos="fade-up" data-aos-duration="1000"  class="text-center themes-title-fonts mt-5 mb-4"><b>FEATURED ON</b></p>
             <div data-aos="fade-up" data-aos-duration="1000"  class="row mt-4 mb-5">
                 <div class="col-sm-12 col-md-4">
                     <div class="img-container">
