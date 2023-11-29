@@ -43,7 +43,7 @@
         </div>
 
         <p data-aos="fade-up" data-aos-duration="1000" class="text-center mt-5">
-            <a href="" style="font-size: 15px;" class="text-center themes-para-fonts my-5">SEE MORE SERVICE AND EXPERTISE</a>
+            <a href="<?php echo home_url(); ?>/services" style="font-size: 15px;" class="text-center themes-para-fonts my-5">SEE MORE SERVICE AND EXPERTISE</a>
         </p>
 
         <div class="section-divider-margin">
