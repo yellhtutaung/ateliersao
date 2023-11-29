@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap@5.3.0.min.css" >
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/animate-scroll.js" ></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/aos.js" ></script>
 
