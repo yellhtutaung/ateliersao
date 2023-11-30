@@ -19,11 +19,17 @@
                 <div class="col-md-8">
                     <div class="overlay-menu-for-large d-flex justify-content-between align-items-center">
                         <div><a class="text-white" href="<?php echo home_url(); ?>">THE BRAND</a></div>
-                        <div class="divider-bar">|</div>
+                        <div class="divider-bar">
+                            <div class="vertical-bar"></div>
+                        </div>
                         <div><a class="text-white" href="">INTERIORS</a></div>
-                        <div class="divider-bar">|</div>
+                        <div class="divider-bar">
+                            <div class="vertical-bar"></div>
+                        </div>
                         <div><a class="text-white" href="<?php echo home_url(); ?>/works">WORK</a></div>
-                        <div class="divider-bar">|</div>
+                        <div class="divider-bar">
+                            <div class="vertical-bar"></div>
+                        </div>
                         <div class=""><a class="text-white" href="<?php echo home_url(); ?>/contact">CONTACT</a></div>
                     </div>
                 </div>

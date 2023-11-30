@@ -137,6 +137,12 @@ li{
     color: white;
     /*height: 260px;*/
 }
+.vertical-bar
+{
+    height: 60px;
+    width: 1px;
+    background: white;
+}
 .border-right-white
 {
     border-right-style: solid; /* This line is optional - sets the border style */
