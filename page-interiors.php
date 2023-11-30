@@ -2,6 +2,7 @@
 <style>
     .same-gray-card
     {
+        overflow: hidden;
         background: #F0F0EC;
         text-align: center;
     }
@@ -39,18 +40,18 @@
     <div class="row">
         <div data-aos="fade-up" data-aos-duration="1000"  class="col-sm-12 col-md-6">
             <div class="same-gray-card p-5">
-                <p>DESIGN MANAGEMENT</p>
-                <p>BESPOKE FURNITURE PRODUCTION</p>
-                <p>INTERIOR GRAPHIC DESIGN & INSTALLATION</p>
-                <p>LIGHTING DESIGN</p>
+                <p data-aos="fade-up" data-aos-duration="1000">DESIGN MANAGEMENT</p>
+                <p data-aos="fade-up" data-aos-duration="1000">BESPOKE FURNITURE PRODUCTION</p>
+                <p data-aos="fade-up" data-aos-duration="1000">INTERIOR GRAPHIC DESIGN & INSTALLATION</p>
+                <p data-aos="fade-up" data-aos-duration="1000">LIGHTING DESIGN</p>
             </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000"  class="col-sm-12 col-md-6">
             <div class="same-gray-card p-5">
-                <p>ARCHITECTURE</p>
-                <p>INTERIOR ARCHITECTURE</p>
-                <p>INTERIOR STYLING</p>
-                <p>ART CONSULTATION</p>
+                <p data-aos="fade-up" data-aos-duration="1000">ARCHITECTURE</p>
+                <p data-aos="fade-up" data-aos-duration="1000">INTERIOR ARCHITECTURE</p>
+                <p data-aos="fade-up" data-aos-duration="1000">INTERIOR STYLING</p>
+                <p data-aos="fade-up" data-aos-duration="1000">ART CONSULTATION</p>
             </div>
         </div>
     </div>
@@ -64,10 +65,10 @@
         <div class="col-sm-12 col-md-6 same-gray-card" data-aos="fade-up" data-aos-duration="1000" >
             <div class="gray-card-content">
                 <p style="opacity: 1;" class="text-center themes-title-fonts mt-4 mb-4"><b>CULTURE</b></p>
-                <p class="themes-para-fonts">Atelier Sao is a culturally diverse team of capable, creative and committed people that combine to create an unbelievable collaborative group effort in creating unmatchable design. We strive to seek design solutions that in turn assist us in developing stunning projects that influence our community in an extremely advantageous way.
+                <p data-aos="fade-up" data-aos-duration="1000" class="themes-para-fonts">Atelier Sao is a culturally diverse team of capable, creative and committed people that combine to create an unbelievable collaborative group effort in creating unmatchable design. We strive to seek design solutions that in turn assist us in developing stunning projects that influence our community in an extremely advantageous way.
                 </p>
-                <p class="themes-para-fonts my-4">We create lifestyles and unique environments that are practical for our clients' needs and continuously strive to be informed and educated in design and product.</p>
-                <p class="themes-para-fonts">Atelier Sao is an Equal Opportunity Employer and has an ongoing commitment to fostering a diverse and inclusive workplace.</p>
+                <p data-aos="fade-up" data-aos-duration="1000" class="themes-para-fonts my-4">We create lifestyles and unique environments that are practical for our clients' needs and continuously strive to be informed and educated in design and product.</p>
+                <p data-aos="fade-up" data-aos-duration="1000" class="themes-para-fonts">Atelier Sao is an Equal Opportunity Employer and has an ongoing commitment to fostering a diverse and inclusive workplace.</p>
             </div>
         </div>
     </div>
@@ -76,7 +77,7 @@
     <div data-aos="fade-up" data-aos-duration="1000" class="img-container">
         <img class="w-100 h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/gp-photo.jpg" alt="">
     </div>
-    <p class="themes-para-fonts w-75 m-auto my-3">The studio presently consists of a team of creative individuals who share design expertise and inspiration through a wide range of skills such as Interior Design, Interior Architecture, Product Design, Visual Merchandising, Interior Styling, Creative Interior Branding, Environmental Graphic Application, and Architectural Integration.</p>
+    <p data-aos="fade-up" data-aos-duration="1000" class="themes-para-fonts w-75 m-auto my-3">The studio presently consists of a team of creative individuals who share design expertise and inspiration through a wide range of skills such as Interior Design, Interior Architecture, Product Design, Visual Merchandising, Interior Styling, Creative Interior Branding, Environmental Graphic Application, and Architectural Integration.</p>
 
     <div class="row my-5">
         <div class="col-sm-12 col-md-6">

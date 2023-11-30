@@ -13,7 +13,7 @@
                 <p class="themes-para-fonts brandon-regular text-white">A Creative Concept Driven International Award Winning Interior Architecture Studio</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <div class="img-container d-flex justify-content-center ">
+                <div data-aos="fade-up" data-aos-duration="1000" class="img-container d-flex justify-content-center ">
                     <img style="width: 80px;height: auto;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/white.png" alt="">
                 </div>
             </div>
